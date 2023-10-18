@@ -1,9 +1,12 @@
-function App() {
+import PageHeader from './layouts/PageHeader';
+
+const App = () => {
 	return (
-		<div>
-			<h1>YouTube</h1>
+		<div className='max-h-screen flex flex-col'>
+			<PageHeader />
+			<div>2</div>
 		</div>
 	);
-}
+};
 
 export default App;
